@@ -1,0 +1,34 @@
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+Z:\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+Z:\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+Z:\source\repos\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+Z:\source\repos\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\Major Project\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+\\Badwolf\Public\Books\Ash C# Project\Part B\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe.config
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\bin\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\bin\Debug\MRRCManagement.pdb
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csprojAssemblyReference.cache
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\obj\Debug\MRRCManagement.csproj.CoreCompileInputs.cache
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\obj\Debug\MRRCManagement.exe
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCManagement\obj\Debug\MRRCManagement.pdb

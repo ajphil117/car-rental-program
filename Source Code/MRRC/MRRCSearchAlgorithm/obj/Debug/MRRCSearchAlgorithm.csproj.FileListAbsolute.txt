@@ -1,0 +1,7 @@
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\bin\Debug\MRRCSearchAlgorithm.exe.config
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\bin\Debug\MRRCSearchAlgorithm.exe
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\bin\Debug\MRRCSearchAlgorithm.pdb
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\obj\Debug\MRRCSearchAlgorithm.csprojAssemblyReference.cache
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\obj\Debug\MRRCSearchAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\obj\Debug\MRRCSearchAlgorithm.exe
+C:\Users\Ash\source\repos\Major Project\Final - Using Shunting Algorithm\MRRC\MRRCSearchAlgorithm\obj\Debug\MRRCSearchAlgorithm.pdb

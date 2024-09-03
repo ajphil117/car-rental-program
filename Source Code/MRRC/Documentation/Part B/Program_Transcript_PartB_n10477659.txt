@@ -1,0 +1,683 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20200604084733
+Username: LAPTOP-A7JTLDD0\Ash
+RunAs User: LAPTOP-A7JTLDD0\Ash
+Configuration Name: 
+Machine: LAPTOP-A7JTLDD0 (Microsoft Windows NT 10.0.18362.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 25100
+PSVersion: 5.1.18362.752
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.752
+BuildVersion: 10.0.18362.752
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is transcript.txt
+PS C:\Users\Ash\source\repos\Major Project\PartB\MRRC\MRRC\bin\Debug> ./MRRC
+### Mates-Rates Rent-A-Car Operation Menu ###
+
+You may press the ESC key at any menu to exit.
+
+Press the BACKSPACE key to return to the previous menu. Press the H key to return to the main menu.
+
+Please enter a letter from the options below.
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+> a
+
+Please enter a letter from the options below.
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+
+> a
+
+--------------------------------------------------------------
+| ID | Title | FirstName | LastName    | Gender | DOB        |
+--------------------------------------------------------------
+| 0  | Ms    | Elizabeth | Franklin    | Female | 26/09/1995 |
+| 1  | Miss  | Finley    | Sartini     | Male   | 25/04/1965 |
+| 2  | Mr    | Miron     | Descoteaux  | Male   | 4/06/1983  |
+| 3  | Mx    | Tekla     | Muhammad    | Other  | 17/12/2019 |
+| 4  | Mrs   | Valentina | Waters      | Female | 27/04/1979 |
+| 5  | Mr    | Azarel    | Kristiansen | Male   | 1/06/1976  |
+| 6  | Lord  | Herman    | Dirksen     | Male   | 22/05/1959 |
+| 7  | Mrs   | Emel      | Gabor       | Female | 31/03/1976 |
+| 8  | Lady  | Kalpana   | Rothenberg  | Female | 6/02/1966  |
+| 9  | Dr    | Amos      | Allaway     | Male   | 10/09/1957 |
+--------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please fill the following field(s). (fields marked with * are required)
+
+To escape sequence, please leave field(s) blank.
+
+*Title: Miss
+*First Name: Ash
+*Last Name: Jane
+*Gender (M/F/Other): Female
+*DOB (dd/mm/yyyy): 31/07/2001
+
+Successfully created new customer '10 - Miss Ash Jane' and added to customers list.
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Please enter a letter from the options below.
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+
+> c
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please enter the ID number of the customer to modify.
+
+To escape sequence, please leave field blank.
+
+> 10
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Please enter the number assigned to the detail to modify. To modify all details at once enter +.
+
+        ID Number: 10
+        a) Title: Miss
+        b) First Name: Ash
+        c) Last Name: Jane
+        d) Gender (M/F/Other): Female
+        e) DOB (dd/mm/yyyy): 31/07/20
+
+> c
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+*Last Name: Phillips
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+To continue modifying the customer details enter (Y)es. To save and exit enter (N)o.
+
+> N
+
+Successfully modified customer '10 - Miss Ash Phillips' and updated customers list.
+
+Please enter a letter from the options below.
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+
+> d
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please enter the ID number of the customer to delete.
+
+To escape sequence, please leave field blank.
+
+> 10
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Customer Details:
+
+        ID Number: 10
+        a) Title: Miss
+        b) First Name: Ash
+        c) Last Name: Phillips
+        d) Gender (M/F/Other): Female
+        e) DOB (dd/mm/yyyy): 31/07/20
+
+To confirm deletion enter (Y)es. To go back enter (N)o.
+
+> Y
+
+Successfully deleted customer '10 - Miss Ash Phillips' and removed from customers list.
+
+Please enter a letter from the options below.
+
+a) Display Customers
+b) New Customer
+c) Modify Customer
+d) Delete Customer
+
+>
+
+### Mates-Rates Rent-A-Car Operation Menu ###
+
+You may press the ESC key at any menu to exit.
+
+Press the BACKSPACE key to return to the previous menu. Press the H key to return to the main menu.
+
+Please enter a letter from the options below.
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+> b
+
+Please enter a letter from the options below.
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+
+> a
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 851VOL       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $37.11     | Black  |
+| 169FBE       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $48.80     | Black  |
+| 602VVZ       | Economy    | Pontiac    | Fiero 2M4    | 1987 | 2        | Manual       | Petrol | False | False   | $37.90     | Red    |
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 509XRK       | Commercial | Dodge      | Dakota       | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 471XBI       | Luxury     | Chevrolet  | Tahoe        | 1996 | 8        | Automatic    | Petrol | True  | True    | $38.00     | Black  |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+| 677UIA       | Economy    | Audi       | S4           | 2004 | 5        | Manual       | Petrol | False | False   | $43.30     | Blue   |
+| 519YUY       | Family     | Dodge      | Durango      | 2006 | 7        | Automatic    | Diesel | True  | True    | $46.80     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+
+> b
+
+Please enter a letter from the options below.
+
+a) Fill all fields
+b) Only fill required fields
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please fill the following field(s). (fields marked with * are required)
+
+To escape sequence, please leave field(s) blank.
+
+*Registration: 123ABC
+*Grade (Economy/Family/Luxury/Commercial): Family
+*Make: Toyota
+*Model: Rav 4
+*Year: 2005
+
+Successfully created new vehicle '123ABC - Toyota Rav 4 2005' and added to vehicle list.
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Please enter a letter from the options below.
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+
+> c
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please enter the registration number of the vehicle to modify.
+
+To escape sequence, please leave field blank.
+
+> 123ABC
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Please enter the number assigned to the detail to modify.
+        OR
+To modify all details at once enter +. To modify only all required details at once enter *.
+
+        a) Registration: 123ABC
+        b) Grade (Economy/Family/Luxury/Commercial): Family
+        c) Make: Toyota
+        d) Model: Rav 4
+        e) Year: 2005
+        f) Number of Seats: 4
+        g) Transmission Type (Automatic/Manual): Manual
+        h) Fuel Type (Petrol/Diesel): Petrol
+        i) GPS (Y/N): False
+        j) Sunroof (Y/N): False
+        k) Daily Rate: 80
+        l) Colour: Black
+
+> l
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Colour: White
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+To continue modifying the vehicle details enter (Y)es. To save and exit enter (N)o.
+
+> N
+
+Successfully modified vehicle '123ABC - Toyota Rav 4 2005' and updated vehicles list.
+
+Please enter a letter from the options below.
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+
+> d
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please enter the registration number of the vehicle to delete.
+
+To escape sequence, please leave field blank.
+
+> 123ABC
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Vehicle Details:
+
+        a) Registration: 123ABC
+        b) Grade (Economy/Family/Luxury/Commercial): Family
+        c) Make: Toyota
+        d) Model: Rav 4
+        e) Year: 2005
+        f) Number of Seats: 4
+        g) Transmission Type (Automatic/Manual): Manual
+        h) Fuel Type (Petrol/Diesel): Petrol
+        i) GPS (Y/N): False
+        j) Sunroof (Y/N): False
+        k) Daily Rate: 80
+        l) Colour: White
+
+To confirm deletion enter (Y)es. To go back enter (N)o.
+
+> Y
+
+Successfully deleted vehicle '123ABC - Toyota Rav 4 2005' and removed from vehicles list.
+
+Please enter a letter from the options below.
+
+a) Display Fleet
+b) New Vehicle
+c) Modify Vehicle
+d) Delete Vehicle
+
+>
+
+### Mates-Rates Rent-A-Car Operation Menu ###
+
+You may press the ESC key at any menu to exit.
+
+Press the BACKSPACE key to return to the previous menu. Press the H key to return to the main menu.
+
+Please enter a letter from the options below.
+
+a) Customer Management
+b) Fleet Management
+c) Rental Management
+
+> c
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> a
+
+------------------------------------------
+| Registration | CustomerID | DailyRate  |
+------------------------------------------
+| 602VVZ       | 0          | $37.90     |
+| 677UIA       | 6          | $43.30     |
+| 471XBI       | 2          | $38.00     |
+| 519YUY       | 9          | $46.80     |
+------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 851VOL       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $37.11     | Black  |
+| 169FBE       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $48.80     | Black  |
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 509XRK       | Commercial | Dodge      | Dakota       | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue
+
+--------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make  | Model  | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+--------------------------------------------------------------------------------------------------------------------------------
+| 509XRK       | Commercial | Dodge | Dakota | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 682GWJ       | Commercial | Audi  | A4     | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+--------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue or Red
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 509XRK       | Commercial | Dodge      | Dakota       | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Red and Petrol
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue or Red or Black
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 851VOL       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $37.11     | Black  |
+| 169FBE       | Economy    | Pontiac    | Fiero 2M4    | 1985 | 2        | Manual       | Petrol | False | False   | $48.80     | Black  |
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 509XRK       | Commercial | Dodge      | Dakota       | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue and Diesel and GPS
+
+-------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make  | Model  | Year | NumSeats | Transmission | Fuel   | GPS  | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------
+| 509XRK       | Commercial | Dodge | Dakota | 2002 | 4        | Manual       | Diesel | True | False   | $45.50     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue or Red and Petrol
+
+Does "AND" have priority? Y/N: N
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> Blue or Red and Petrol
+
+Does "AND" have priority? Y/N: Y
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make       | Model        | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------------
+| 993QAN       | Commercial | Mitsubishi | 3000 GT VR-4 | 1991 | 2        | Manual       | Petrol | False | False   | $37.80     | Red    |
+| 682GWJ       | Commercial | Audi       | A4           | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> b
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+To search for a vehicle please type in the attribute you want to search for.
+
+To search for more than one attribute please use only the AND, OR, or () operators.
+
+If the searched attribute has spaces please put quotations (") around it.
+
+Search vehicles >>> (Blue and Manual) or (Black and Economy)
+
+Does "AND" have priority? Y/N: Y
+
+-------------------------------------------------------------------------------------------------------------------------------------
+| Registration | Grade      | Make    | Model     | Year | NumSeats | Transmission | Fuel   | GPS   | Sunroof | DailyRate  | Colour |
+-------------------------------------------------------------------------------------------------------------------------------------
+| 851VOL       | Economy    | Pontiac | Fiero 2M4 | 1985 | 2        | Manual       | Petrol | False | False   | $37.11     | Black  |
+| 169FBE       | Economy    | Pontiac | Fiero 2M4 | 1985 | 2        | Manual       | Petrol | False | False   | $48.80     | Black  |
+| 509XRK       | Commercial | Dodge   | Dakota    | 2002 | 4        | Manual       | Diesel | True  | False   | $45.50     | Blue   |
+| 682GWJ       | Commercial | Audi    | A4        | 1997 | 5        | Manual       | Petrol | False | False   | $46.10     | Blue   |
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> c
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please fill the following field(s). (fields marked with * are required)
+
+To escape sequence, please leave field(s) blank.
+
+*ID: 1
+*Registration: 851VOL
+*Rental Time (days): 5
+
+The total cost of this rental  will be $185.56. Please enter (Y)es to proceed or (N)o to go back.
+
+> Y
+
+Successfully rented vehicle '851VOL' to customer '1' and added to rentals list.
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+> d
+
+*** ESC and BACKSPACE commands disabled, must fill feild(s). ***
+
+Please enter the registration number of the vehicle to return.
+
+To escape sequence, please leave field blank.
+
+> 851VOL
+
+*** ESC and BACKSPACE commands re-enabled. ***
+
+Rental attributes:
+
+        Customer ID: 1
+        Registration: 851VOL
+
+Please enter (Y)es to confirm return of vehicle. To go back enter (N)o.
+
+> Y
+
+Successfully returned vehicle '851VOL' from customer '1' and removed from rentals list.
+
+Please enter a letter from the options below.
+
+a) Display Rentals
+b) Search Vehicles
+c) Rent Vehicle
+d) Return Vehicle
+
+>
+PS C:\Users\Ash\source\repos\Major Project\PartB\MRRC\MRRC\bin\Debug> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20200604085450
+**********************
